@@ -5,7 +5,11 @@
   <groupId>com.zero</groupId>
   <artifactId>pandas-java</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>pandas-java-src</module>
+    <module>pandas-java-example</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>pandas-java</name>
   <url>http://maven.apache.org</url>
@@ -21,5 +25,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 </project>
